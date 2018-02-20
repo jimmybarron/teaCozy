@@ -1,8 +1,44 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
 }
 
 .teaTypes img {
     height: 200px;
     width: 300px;
+}
+
+#topNav {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#topNavLeft {
+    background-image: url(../assets/img-tea-cozy-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 150px;
+}
+
+#topNavRight {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+#topNavRight li{
+    list-style-type: none;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+
+#ourMission {
+    background-image: url(../assets/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
 }
