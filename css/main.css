@@ -12,6 +12,14 @@ body {
     top: 69px;
     position: relative;
 }
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
 
 .teaTypes img {
     height: 200px;
@@ -67,6 +75,11 @@ body {
     background-color: black;
     width: 100%;
     text-align: center;
+    align-items: center;
+}
+
+#ourMissionBand h1{
+    margin: 20px 0 0 0;
 }
 
 #teaOfTheMonth {
@@ -75,35 +88,47 @@ body {
 
 #teaOfTheMonthTop {
     text-align: center;
+    padding-top: 80px;
 }
 
 #teaOfTheMonthBottom {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 80px;
     width: 1000px;
 }
 
 .teaTypes {
     padding: 0 10px;
+    width: 300px;
 }
 
 #locationsContainer {
-    height:500px;
+    height: 500px;
     width: 100%;
-    justify-content: space-around;
     background-image: url('../assets/img-locations-background.jpg');
     background-size: cover;
     background-position: center;
 }
 
 #locationsContainer h1 {
-    width: 500px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+
+#locationsFlex {
+    display: flex;
+    justify-content: center;
 }
 
 .locations {
     width: 200px;
     height: 200px;
     background-color: black;
-    margin: 20px;
+    margin: 0 20px;
     padding: 10px;
     text-align: center;
     line-height: 2.0em;
